@@ -3,13 +3,13 @@
     <div id="wrapper">
       <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
       <StorageRemaining usedSpace="901" capacity="1000" />
-      <Attribution/>
     </div>
+      <Attribution/>
   </div>
 </template>
 
 <script>
-import StorageRemaining from "./components/StorageRemaining";
+import StorageRemaining from "./views/StorageRemaining";
 import Attribution from "./components/Attribution";
 
 export default {
@@ -34,6 +34,8 @@ body {
   height: 100vh;
   text-align: center;
   margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
 }
 #wrapper {
   width: 100%;
