@@ -19,7 +19,6 @@ export default {};
   position: absolute;
   bottom: 30px;
   width: 100%;
-  font-size: 11px;
   text-align: center;
   color: #dbd9ff;
 }

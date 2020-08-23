@@ -27,6 +27,7 @@ export default {
     padding-left: 40px;
     box-sizing: border-box;
     border-radius: 10px;
+    border-top-right-radius: 100px;
 }
 
 .links img{
