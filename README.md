@@ -20,8 +20,8 @@ Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-# Installation
+## Installation
 `npm install`
 
-# Run the project
+## Run the project
 `npm run start`
