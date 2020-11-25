@@ -4,17 +4,16 @@
       <div class="progress-title">
         <p>
           You’ve used
-          <b>{{usedSpace}} GB</b> of your storage
+          <b>{{ usedSpace }} GB</b> of your storage
         </p>
         <div class="popup">
-          <!-- <img src="./../assets/popup.svg" alt="remaining"> -->
           <div class="col-1">
             <p>
-              <b>{{freeSpace}}</b>
+              {{ freeSpace }}
             </p>
           </div>
           <div class="col-2">
-            <b><p>GB Left</p></b>
+            <p>GB LEFT</p>
           </div>
         </div>
       </div>
@@ -26,7 +25,7 @@
           <b>0 GB</b>
         </p>
         <p>
-          <b>{{capacity}} GB</b>
+          <b>{{ capacity }} GB</b>
         </p>
       </div>
     </div>
@@ -88,25 +87,28 @@ export default {
   height: 93px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 22px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
 .popup p {
-  color: black;
-  padding-top: 25px;
+  /* padding-top: 25px; */
+  color: #0c122c;
 }
 
 .col-1 {
   font-size: 40px;
+  font-weight: bold;
 }
 
 .col-2 {
-  color: #0c122c;
   font-size: 12px;
   letter-spacing: 1px;
   opacity: 50%;
+  font-weight: bold;
 }
 
 .progress-limits {

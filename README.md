@@ -1,24 +1,27 @@
-# storage-remaining
+# Frontend Mentor - Fylo data storage component
 
-## Project setup
-```
-npm install
-```
+![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Welcome! 👋
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Thanks for checking out this front-end coding challenge.
 
-### Lints and fixes files
-```
-npm run lint
-```
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**To do this challenge, you need a basic understanding of HTML and CSS.**
+
+## The challenge
+
+Your challenge is to build out this data storage component and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+
+# Installation
+`npm install`
+
+# Run the project
+`npm run start`

@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <div id="wrapper">
-      <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-      <StorageRemaining usedSpace="901" capacity="1000" />
+      <StorageRemaining />
     </div>
-      <Attribution/>
+    <Attribution />
   </div>
 </template>
 
@@ -16,26 +15,29 @@ export default {
   name: "App",
   components: {
     StorageRemaining,
-    Attribution
+    Attribution,
   },
 };
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
+  background: no-repeat url("./assets/bg-desktop.png") 0% 115%;
+  background-size: 100%;
+  background-color: #0c122c;
 }
 #app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #0c122c;
   width: 100vw;
   height: 100vh;
   text-align: center;
   margin: 0 auto;
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 #wrapper {
   width: 100%;
@@ -47,7 +49,7 @@ body {
   justify-content: center;
 }
 
-p{
-    color: #DBD9FF
+p {
+  color: #dbd9ff;
 }
 </style>
