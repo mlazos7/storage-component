@@ -2,6 +2,9 @@
 
 ![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
+## Live
+[Demo](https://mlazos7.github.io/storage-remaining-component/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
