@@ -1,55 +1,26 @@
 <template>
   <div id="app">
     <div id="wrapper">
-      <StorageRemaining />
+      <div class="wrapper-storage">
+        <TheTitle />
+        <Storage capacity="1000" usedSpace="875" />
+      </div>
     </div>
     <Attribution />
   </div>
 </template>
 
 <script>
-import StorageRemaining from "./views/StorageRemaining";
 import Attribution from "./components/Attribution";
-
+import TheTitle from "./components/TheTitle";
+import Storage from "./components/Storage";
+import "./styles.scss";
 export default {
   name: "App",
   components: {
-    StorageRemaining,
     Attribution,
+    TheTitle,
+    Storage,
   },
 };
 </script>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background: no-repeat url("./assets/bg-desktop.png") 0% 115%;
-  background-size: 100%;
-  background-color: #0c122c;
-}
-#app {
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 14px;
-  font-family: "Raleway", sans-serif;
-}
-#wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  margin: 0 auto;
-  box-sizing: border-box;
-  flex-direction: column;
-  justify-content: center;
-}
-
-p {
-  color: #dbd9ff;
-}
-</style>
